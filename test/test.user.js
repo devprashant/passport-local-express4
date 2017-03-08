@@ -6,7 +6,7 @@ var db;
 describe('Account', function() {
 
     before(function(done) {
-        db = mongoose.connect('mongodb://localhost/test');
+        db = mongoose.connect('mongodb://cstay.org:27017/test');
             done();
     });
 

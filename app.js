@@ -42,7 +42,7 @@ passport.serializeUser(Account.serializeUser());
 passport.deserializeUser(Account.deserializeUser());
 
 // mongoose 
-mongoose.connect('mongodb://localhost/passport_local_mongoose_express4');
+mongoose.connect('mongodb://cstay.org/passport_local_mongoose_express4');
 
 
 // catch 404 and forward to error handler
