@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "make test"
+    "test": "mocha test/test.user.js"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
@@ -20,6 +20,7 @@
     "serve-favicon": "~2.3.2"
   },
   "devDependencies": {
+    "mocha": "^3.2.0",
     "should": "^11.2.0"
   }
 }
